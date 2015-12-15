@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title></title>
+    </head>
+    <body>
+        <section class="hello">
+            <h1>bag.css</h1>
+            <p>The minimal thing you need for building CSS containers.</p>
+        </section>
+        <section>
+            <div class="bag fixed">
+                <p>I'm a fixed container, but still responsive. To invoke me, do:</p>
+                <pre>&lt;div class="bag fixed"&gt;...&lt;/div&gt;</pre>
+                <p>Depending on the window width, I will take the following widths:</p>
+                <ul>
+                    <li><strong>1170px</strong>, min-width: 1200px</li>
+                    <li><strong>970px</strong>, min-width: 992px</li>
+                    <li><strong>750px</strong>, min-width: 768px</li>
+                    <li><strong>100%</strong>, less than 768px</li>
+                </ul>
+                <p>Using <a href="https://github.com/IonicaBizau/gridly/">Gridly</a> you can split me in columns:</p>
+                <div class="row">
+                    <div class="col">Column 1</div>
+                    <div class="col">Column 2</div>
+                    <div class="col">Column 3</div>
+                    <div class="col">Column 4</div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="bag fluid">
+                <p>I'm a fluid container––I don't have a fixed width but always taking care to be as large as possible.</p>
+                <pre>&lt;div class="bag fluid"&gt;...&lt;/div&gt;</pre>
+                <p>I work nicely with Gridly's columns too:</p>
+                <div class="row">
+                    <div class="col">Column 1</div>
+                    <div class="col">Column 2</div>
+                    <div class="col">Column 3</div>
+                    <div class="col">Column 4</div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

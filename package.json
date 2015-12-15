@@ -1,0 +1,31 @@
+{
+  "name": "bag.css",
+  "version": "1.0.0",
+  "description": "Fluid and fixed containers made simple.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npm run dist-main && npm run dist-widths && npm run dist-all",
+    "dist-fixed": "uglifycss lib/bag.css > dist/bag.fixed.css && uglifycss lib/bag.fixed.css >> dist/bag.fixed.css",
+    "dist-fluid": "uglifycss lib/bag.css > dist/bag.fluid.css && uglifycss lib/bag.fluid.css >> dist/bag.fluid.css",
+    "dist-all": "uglifycss lib/bag.css > dist/bag.all.css && uglifycss lib/bag.fluid.css >> dist/bag.all.css && uglifycss lib/bag.fixed.css >> dist/bag.all.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/bag.css.git"
+  },
+  "keywords": [
+    "container",
+    "bag",
+    "css",
+    "container",
+    "fluid",
+    "fixed"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/bag.css/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/bag.css#readme"
+}
