@@ -1,3 +1,2 @@
 .bag{margin:0 auto;padding:0 15px}
-.bag.fluid{margin:0 auto}
 .bag.fixed{max-width:100%}@media(min-width:768px){.bag.fixed{width:750px}}@media(min-width:992px){.bag.fixed{width:970px}}@media(min-width:1200px){.bag.fixed{width:1170px}}
