@@ -72,7 +72,7 @@
             "   I am a fluid container.",
             "</div>",
             "<div class=\"fixed bag\">",
-            "   I am a fluid container.",
+            "   I am a fixed container.",
             "</div>"
           ]
         }
