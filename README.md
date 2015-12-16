@@ -37,7 +37,7 @@ Then you can use the `.bag` and `.fluid`/`.fixed` classes:
 The scope of the library is just to provide the easy way to
 build fixed and fluid responsive containers. If you need to
 split the rows in columns, you can use
-[Gridly](https://github.com/IonicaBizau/gridly)
+[Gridly](https://github.com/IonicaBizau/gridly).
 
 [![bag.css](http://i.imgur.com/mA8cdGx.png)](http://ionicabizau.github.io/bag.css/example/)
 
