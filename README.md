@@ -29,7 +29,7 @@ Then you can use the `.bag` and `.fluid`/`.fixed` classes:
    I am a fluid container.
 </div>
 <div class="fixed bag">
-   I am a fluid container.
+   I am a fixed container.
 </div>
 ```
 ## Grid system?
