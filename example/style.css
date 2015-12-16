@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700);
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+English);
+@import url("../dist/bag.all.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/gridly/1.2.0/gridly-core.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/octicons/3.3.0/octicons.min.css");
+
+.text-center {
+    text-align: center;
+}
+
+body {
+    color: #313131;
+    background: #ecf0f1;
+    font-family: "Ubuntu";
+}
+
+
+.hello h1 {
+    font-size: 5em;
+    margin: 0;
+    color: #16a085;
+    text-shadow: 1px 1px 1px #16a085;
+    font-family: "IM Fell English";
+}
+.hello p {
+    font-size: 1.6em;
+    margin: 0 0 20px 0;
+    color: #34495e;
+}
+
+.bag {
+    background: #fff;
+    border-bottom: 10px solid #1abc9c;
+    box-shadow: 0 6px 23px rgba(0, 0, 0, 0.12);
+}
+
+section {
+    margin-top: 45px;
+}
+section p {
+    font-size: 19px;
+}
+
+pre {
+    background: #FFFFFF;
+    padding: 15px;
+    width: auto;
+    /* display: inline-block; */
+    border: 1px solid rgba(149, 165, 166, 0.35);
+    font-family: "Ubuntu Mono", monospace;
+}
+
+strong {
+}
+
+li {
+    font-size: 19px;
+}
+
+a {
+    color: #16a085;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.col {
+    padding: 10px;
+    background: #16A085;
+    margin: 4px 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+section.copyright {
+    margin-bottom: 45px;
+}
+.hello a {
+    color: #fff;
+}
