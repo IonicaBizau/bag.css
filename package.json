@@ -1,7 +1,7 @@
 {
   "name": "bag.css",
   "version": "1.0.0",
-  "description": "Fluid and fixed containers made simple.",
+  "description": "The minimal library for creating fixed and fluid CSS containers.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
