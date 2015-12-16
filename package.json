@@ -77,16 +77,18 @@
           ]
         }
       },
-      { "h2": "Grid system?" },
       {
-          "p": [
-              [
-                  "The scope of the library is just to provide the easy way to",
-                  "build fixed and fluid responsive containers. If you need to",
-                  "split the rows in columns, you can use",
-                  "[Gridly](https://github.com/IonicaBizau/gridly)"
-              ]
+        "h2": "Grid system?"
+      },
+      {
+        "p": [
+          [
+            "The scope of the library is just to provide the easy way to",
+            "build fixed and fluid responsive containers. If you need to",
+            "split the rows in columns, you can use",
+            "[Gridly](https://github.com/IonicaBizau/gridly)"
           ]
+        ]
       }
     ],
     "documentation": [
@@ -104,14 +106,14 @@
         "p": "If you only need fixed (fluid) containers on your page, you will probably want to load just `bag.fixed.css` (`bag.fluid.css`)."
       },
       {
-          "p": "Depending on the window width, the fixed container will have the following widths:"
+        "p": "Depending on the window width, the fixed container will have the following widths:"
       },
       {
         "ul": [
-            "**1170px**, min-width: 1200px",
-            "**970px**, min-width: 992px",
-            "**750px**, min-width: 768px",
-            "**100%**, less than 768px"
+          "**1170px**, min-width: 1200px",
+          "**970px**, min-width: 992px",
+          "**750px**, min-width: 768px",
+          "**100%**, less than 768px"
         ]
       }
     ],
