@@ -30,5 +30,102 @@
   "homepage": "https://github.com/IonicaBizau/bag.css#readme",
   "devDependencies": {
     "uglifycss": "0.0.19"
+  },
+  "blah": {
+    "description": [
+      {
+        "p": "You don't ndeed monolithic CSS frameworks for simple CSS containers (fluid/fixed). **bag.css** does the job and it weights ~150 bytes. :dizzy:"
+      },
+      {
+        "h2": "Usage"
+      },
+      {
+        "p": "In the [`dist`](/dist) directory there are three minified files:"
+      },
+      {
+        "ul": [
+          "`bag.fixed.css` (151 B): the fixed container",
+          "`bag.fluid.css` (100 B): the fluid container",
+          "`bag.all.css` (164 B): the previous two files' content put together"
+        ]
+      },
+      {
+        "h2": "Example"
+      },
+      {
+        "p": "Include the CSS file in your page:"
+      },
+      {
+        "code": {
+          "language": "html",
+          "content": "<link rel=\"stylesheet\" href=\"bag.all.css\" type=\"text/css\" charset=\"utf-8\">"
+        }
+      },
+      {
+        "p": "Then you can use the `.bag` and `.fluid`/`.fixed` classes:"
+      },
+      {
+        "code": {
+          "language": "html",
+          "content": [
+            "<div class=\"fluid bag\">",
+            "   I am a fluid container.",
+            "</div>",
+            "<div class=\"fixed bag\">",
+            "   I am a fluid container.",
+            "</div>"
+          ]
+        }
+      },
+      { "h2": "Grid system?" },
+      {
+          "p": [
+              [
+                  "The scope of the library is just to provide the easy way to",
+                  "build fixed and fluid responsive containers. If you need to",
+                  "split the rows in columns, you can use",
+                  "[Gridly](https://github.com/IonicaBizau/gridly)"
+              ]
+          ]
+      }
+    ],
+    "documentation": [
+      {
+        "p": "The `bag.all.css` file handles the semantic classes:"
+      },
+      {
+        "ul": [
+          "`bag`: that means the element should be a container (fluid or fixed)",
+          "`fixed`: together with `bag`, this will create a fixed container (e.g. `<div class=\"fixed bag\").",
+          "`fluid`: together with `bag`, this will create a fluid container (e.g. `<div class=\"fluid bag\")."
+        ]
+      },
+      {
+        "p": "If you only need fixed (fluid) containers on your page, you will probably want to load just `bag.fixed.css` (`bag.fluid.css`)."
+      },
+      {
+          "p": "Depending on the window width, the fixed container will have the following widths:"
+      },
+      {
+        "ul": [
+            "**1170px**, min-width: 1200px",
+            "**970px**, min-width: 992px",
+            "**750px**, min-width: 768px",
+            "**100%**, less than 768px"
+        ]
+      }
+    ],
+    "contributing": [
+      {
+        "p": "Run `npm i` to install the dependencies. Then, you can run the npm scripts using `npm run <script-name>`."
+      },
+      {
+        "p": "Run `npm run release` to recreate all the `dist` files."
+      }
+    ],
+    "h_img": "http://i.imgur.com/3m0NMdB.png",
+    "ex_img": "http://i.imgur.com/mA8cdGx.png",
+    "h_url": "http://ionicabizau.github.io/bag.css/example/",
+    "ex_url": "http://ionicabizau.github.io/bag.css/example/"
   }
 }
