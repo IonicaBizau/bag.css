@@ -1,14 +1,17 @@
+
 [![bag.css](http://i.imgur.com/3m0NMdB.png)](http://ionicabizau.github.io/bag.css/example/)
 
 # bag.css [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/bag.css.svg)](https://www.npmjs.com/package/bag.css) [![Downloads](https://img.shields.io/npm/dt/bag.css.svg)](https://www.npmjs.com/package/bag.css) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > The minimal library for fixed and fluid CSS containers.
 
+
 You don't ndeed monolithic CSS frameworks for simple CSS containers (fluid/fixed). **bag.css** does the job and it weights ~150 bytes. :dizzy:
 
 ## Usage
 
 In the [`dist`](/dist) directory there are three minified files:
+
 
  - `bag.fixed.css` (151 B): the fixed container
  - `bag.fluid.css` (100 B): the fluid container
@@ -39,33 +42,44 @@ build fixed and fluid responsive containers. If you need to
 split the rows in columns, you can use
 [Gridly](https://github.com/IonicaBizau/gridly).
 
+
 [![bag.css](http://i.imgur.com/mA8cdGx.png)](http://ionicabizau.github.io/bag.css/example/)
 
-## Documentation
+## :memo: Documentation
+
 
 The `bag.all.css` file handles the semantic classes:
+
 
  - `bag`: that means the element should be a container (fluid or fixed)
  - `fixed`: together with `bag`, this will create a fixed container (e.g. `<div class="fixed bag").
  - `fluid`: together with `bag`, this will create a fluid container (e.g. `<div class="fluid bag").
 
+
 If you only need fixed (fluid) containers on your page, you will probably want to load just `bag.fixed.css` (`bag.fluid.css`).
 
+
 Depending on the window width, the fixed container will have the following widths:
+
 
  - **1170px**, min-width: 1200px
  - **970px**, min-width: 992px
  - **750px**, min-width: 768px
  - **100%**, less than 768px
 
-## How to contribute
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
+
 
 Run `npm i` to install the dependencies. Then, you can run the npm scripts using `npm run <script-name>`.
 
+
 Run `npm run release` to recreate all the `dist` files.
 
-## License
+
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
