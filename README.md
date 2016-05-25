@@ -1,7 +1,9 @@
 
 [![bag.css](http://i.imgur.com/3m0NMdB.png)](http://ionicabizau.github.io/bag.css/example/)
 
-# bag.css [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/bag.css.svg)](https://www.npmjs.com/package/bag.css) [![Downloads](https://img.shields.io/npm/dt/bag.css.svg)](https://www.npmjs.com/package/bag.css) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# bag.css
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/bag.css.svg)](https://www.npmjs.com/package/bag.css) [![Downloads](https://img.shields.io/npm/dt/bag.css.svg)](https://www.npmjs.com/package/bag.css) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > The minimal library for fixed and fluid CSS containers.
 
