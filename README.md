@@ -18,6 +18,7 @@ In the [`dist`](/dist) directory there are three minified files:
  - `bag.fixed.css` (151 B): the fixed container
  - `bag.fluid.css` (100 B): the fluid container
  - `bag.all.css` (164 B): the previous two files' content put together
+
 ## Example
 
 Include the CSS file in your page:
@@ -39,11 +40,8 @@ Then you can use the `.bag` and `.fluid`/`.fixed` classes:
 ## Grid system?
 
 The scope of the library is just to provide the easy way to
-
 build fixed and fluid responsive containers. If you need to
-
 split the rows in columns, you can use
-
 [Gridly](https://github.com/IonicaBizau/gridly).
 
 
@@ -59,6 +57,7 @@ The `bag.all.css` file handles the semantic classes:
  - `fixed`: together with `bag`, this will create a fixed container (e.g. `<div class="fixed bag").
  - `fluid`: together with `bag`, this will create a fluid container (e.g. `<div class="fluid bag").
 
+
 If you only need fixed (fluid) containers on your page, you will probably want to load just `bag.fixed.css` (`bag.fluid.css`).
 
 
@@ -69,6 +68,7 @@ Depending on the window width, the fixed container will have the following width
  - **970px**, min-width: 992px
  - **750px**, min-width: 768px
  - **100%**, less than 768px
+
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
