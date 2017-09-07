@@ -1,6 +1,6 @@
 {
   "name": "bag.css",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "The minimal library for fixed and fluid CSS containers.",
   "main": "lib/index.js",
   "scripts": {
@@ -140,6 +140,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
