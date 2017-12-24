@@ -14,6 +14,7 @@ You don't ndeed monolithic CSS frameworks for simple CSS containers (fluid/fixed
 
 ## Usage
 
+
 In the [`dist`](/dist) directory there are three minified files:
 
 
@@ -23,11 +24,13 @@ In the [`dist`](/dist) directory there are three minified files:
 
 ## Example
 
+
 Include the CSS file in your page:
 
 ```html
 <link rel="stylesheet" href="bag.all.css" type="text/css" charset="utf-8">
 ```
+
 
 Then you can use the `.bag` and `.fluid`/`.fixed` classes:
 
@@ -39,11 +42,16 @@ Then you can use the `.bag` and `.fluid`/`.fixed` classes:
    I am a fixed container.
 </div>
 ```
+
 ## Grid system?
 
+
 The scope of the library is just to provide the easy way to
+
 build fixed and fluid responsive containers. If you need to
+
 split the rows in columns, you can use
+
 [Gridly](https://github.com/IonicaBizau/gridly).
 
 
